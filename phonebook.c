@@ -4,7 +4,7 @@
 
 int main(void)
 {
-    string anmes[] = {"carter", "david"};
+    string names[] = {"carter", "david"};
     string numbers[] = {"+1-617_495_1000", "+1-978-234-1239"};
 
     string name = get_string("name: ");
@@ -16,6 +16,6 @@ int main(void)
             return 0;
         }
     }
-    printf("not found");
+    printf("not found\n");
     return 1;
 }
